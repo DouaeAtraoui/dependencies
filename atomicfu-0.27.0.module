@@ -2,15 +2,15 @@
   "formatVersion": "1.1",
   "component": {
     "group": "org.jetbrains.kotlinx",
-    "module": "kotlinx-coroutines-core",
-    "version": "1.10.2",
+    "module": "atomicfu",
+    "version": "0.27.0",
     "attributes": {
       "org.gradle.status": "release"
     }
   },
   "createdBy": {
     "gradle": {
-      "version": "8.13"
+      "version": "8.10.2"
     }
   },
   "variants": [
@@ -27,26 +27,19 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "2.1.0"
-          }
-        },
-        {
-          "group": "org.jetbrains.kotlinx",
-          "module": "atomicfu",
-          "version": {
-            "requires": "0.23.1"
+            "prefers": "2.1.0"
           }
         }
       ],
       "files": [
         {
-          "name": "kotlinx-coroutines-core-metadata-1.10.2.jar",
-          "url": "kotlinx-coroutines-core-1.10.2.jar",
-          "size": 138090,
-          "sha512": "a53c88f926ffeeae620009ac90a7c1aad4df3cb3963975ef2eb0090f819ffe3c74bbaed03dc84a45f488eab424c02ae0c1c093d9f52fd8a8bcfaf20713e2c570",
-          "sha256": "319b653009d49c70982f98df29cc84fc7025b092cb0571c8e7532e3ad4366dae",
-          "sha1": "98c822b26e7e596cb9a9d95bb5bab18ba65e6074",
-          "md5": "2f57ff4ae5ff54cdcbf1774714cd7293"
+          "name": "atomicfu-metadata-0.27.0.jar",
+          "url": "atomicfu-0.27.0.jar",
+          "size": 40063,
+          "sha512": "830f18a510e0e892f6a0f2dab0badda34f5385e11fcc58c01c5dc08642b040d340a9c11b372e5f1a516cee2119540386aa3811462a7257f2194d508dac278e2c",
+          "sha256": "a2237ad91a3d36494ffb2556f4c59889c81f7ae3b5efb445d12ecd090b37c6e9",
+          "sha1": "df54d82afb2f35e34149103e2b25f9fe7564cfe2",
+          "md5": "1de7286126bf460b5e3f9ce81f2970c1"
         }
       ]
     },
@@ -62,13 +55,13 @@
       },
       "files": [
         {
-          "name": "kotlinx-coroutines-core-kotlin-1.10.2-sources.jar",
-          "url": "kotlinx-coroutines-core-1.10.2-sources.jar",
-          "size": 340391,
-          "sha512": "b983a61984568b42794e5d55f606c705244349d6c2cd02f95df5689122acde09524d421f1b6c704529895212b2c1b7b48ca6f2aeee1e3c6379f6e96f44886acd",
-          "sha256": "8178bb22665b78d08bc8b5f864a8ab946576d10fe352c77558dc9c8ed7f82ad7",
-          "sha1": "8aea9f500d182fafa1fbf091503da899d22a5cd0",
-          "md5": "ffb88d46d2b3a21be7d2fe540d88b388"
+          "name": "atomicfu-kotlin-0.27.0-sources.jar",
+          "url": "atomicfu-0.27.0-sources.jar",
+          "size": 18894,
+          "sha512": "16223cbadfd513bcf7e8ead83e1df67561325968f624ab5fcb20b732a29fd527d932d27f71284915cab715f8a18386a189b95c88dc64279550b76efdb6bacca7",
+          "sha256": "5bfe1057c05ab954f78feb2b05a3d2672e32e23238d0cf6e5403f0162926f351",
+          "sha1": "74fcd2c65f5bd1d518d4afd96d0c3d7ef60ade1c",
+          "md5": "09b0671706d057142f0cd456c5cfbe08"
         }
       ]
     },
@@ -83,10 +76,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-androidnativearm32/1.10.2/kotlinx-coroutines-core-androidnativearm32-1.10.2.module",
+        "url": "../../atomicfu-androidnativearm32/0.27.0/atomicfu-androidnativearm32-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-androidnativearm32",
-        "version": "1.10.2"
+        "module": "atomicfu-androidnativearm32",
+        "version": "0.27.0"
       }
     },
     {
@@ -101,10 +94,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-androidnativearm32/1.10.2/kotlinx-coroutines-core-androidnativearm32-1.10.2.module",
+        "url": "../../atomicfu-androidnativearm32/0.27.0/atomicfu-androidnativearm32-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-androidnativearm32",
-        "version": "1.10.2"
+        "module": "atomicfu-androidnativearm32",
+        "version": "0.27.0"
       }
     },
     {
@@ -118,10 +111,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-androidnativearm64/1.10.2/kotlinx-coroutines-core-androidnativearm64-1.10.2.module",
+        "url": "../../atomicfu-androidnativearm64/0.27.0/atomicfu-androidnativearm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-androidnativearm64",
-        "version": "1.10.2"
+        "module": "atomicfu-androidnativearm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -136,10 +129,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-androidnativearm64/1.10.2/kotlinx-coroutines-core-androidnativearm64-1.10.2.module",
+        "url": "../../atomicfu-androidnativearm64/0.27.0/atomicfu-androidnativearm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-androidnativearm64",
-        "version": "1.10.2"
+        "module": "atomicfu-androidnativearm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -153,10 +146,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-androidnativex64/1.10.2/kotlinx-coroutines-core-androidnativex64-1.10.2.module",
+        "url": "../../atomicfu-androidnativex64/0.27.0/atomicfu-androidnativex64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-androidnativex64",
-        "version": "1.10.2"
+        "module": "atomicfu-androidnativex64",
+        "version": "0.27.0"
       }
     },
     {
@@ -171,10 +164,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-androidnativex64/1.10.2/kotlinx-coroutines-core-androidnativex64-1.10.2.module",
+        "url": "../../atomicfu-androidnativex64/0.27.0/atomicfu-androidnativex64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-androidnativex64",
-        "version": "1.10.2"
+        "module": "atomicfu-androidnativex64",
+        "version": "0.27.0"
       }
     },
     {
@@ -188,10 +181,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-androidnativex86/1.10.2/kotlinx-coroutines-core-androidnativex86-1.10.2.module",
+        "url": "../../atomicfu-androidnativex86/0.27.0/atomicfu-androidnativex86-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-androidnativex86",
-        "version": "1.10.2"
+        "module": "atomicfu-androidnativex86",
+        "version": "0.27.0"
       }
     },
     {
@@ -206,10 +199,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-androidnativex86/1.10.2/kotlinx-coroutines-core-androidnativex86-1.10.2.module",
+        "url": "../../atomicfu-androidnativex86/0.27.0/atomicfu-androidnativex86-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-androidnativex86",
-        "version": "1.10.2"
+        "module": "atomicfu-androidnativex86",
+        "version": "0.27.0"
       }
     },
     {
@@ -223,10 +216,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-iosarm64/1.10.2/kotlinx-coroutines-core-iosarm64-1.10.2.module",
+        "url": "../../atomicfu-iosarm64/0.27.0/atomicfu-iosarm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-iosarm64",
-        "version": "1.10.2"
+        "module": "atomicfu-iosarm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -241,10 +234,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-iosarm64/1.10.2/kotlinx-coroutines-core-iosarm64-1.10.2.module",
+        "url": "../../atomicfu-iosarm64/0.27.0/atomicfu-iosarm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-iosarm64",
-        "version": "1.10.2"
+        "module": "atomicfu-iosarm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -258,10 +251,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-iosarm64/1.10.2/kotlinx-coroutines-core-iosarm64-1.10.2.module",
+        "url": "../../atomicfu-iosarm64/0.27.0/atomicfu-iosarm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-iosarm64",
-        "version": "1.10.2"
+        "module": "atomicfu-iosarm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -275,10 +268,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-iossimulatorarm64/1.10.2/kotlinx-coroutines-core-iossimulatorarm64-1.10.2.module",
+        "url": "../../atomicfu-iossimulatorarm64/0.27.0/atomicfu-iossimulatorarm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-iossimulatorarm64",
-        "version": "1.10.2"
+        "module": "atomicfu-iossimulatorarm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -293,10 +286,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-iossimulatorarm64/1.10.2/kotlinx-coroutines-core-iossimulatorarm64-1.10.2.module",
+        "url": "../../atomicfu-iossimulatorarm64/0.27.0/atomicfu-iossimulatorarm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-iossimulatorarm64",
-        "version": "1.10.2"
+        "module": "atomicfu-iossimulatorarm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -310,10 +303,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-iossimulatorarm64/1.10.2/kotlinx-coroutines-core-iossimulatorarm64-1.10.2.module",
+        "url": "../../atomicfu-iossimulatorarm64/0.27.0/atomicfu-iossimulatorarm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-iossimulatorarm64",
-        "version": "1.10.2"
+        "module": "atomicfu-iossimulatorarm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -327,10 +320,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-iosx64/1.10.2/kotlinx-coroutines-core-iosx64-1.10.2.module",
+        "url": "../../atomicfu-iosx64/0.27.0/atomicfu-iosx64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-iosx64",
-        "version": "1.10.2"
+        "module": "atomicfu-iosx64",
+        "version": "0.27.0"
       }
     },
     {
@@ -345,10 +338,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-iosx64/1.10.2/kotlinx-coroutines-core-iosx64-1.10.2.module",
+        "url": "../../atomicfu-iosx64/0.27.0/atomicfu-iosx64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-iosx64",
-        "version": "1.10.2"
+        "module": "atomicfu-iosx64",
+        "version": "0.27.0"
       }
     },
     {
@@ -362,10 +355,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-iosx64/1.10.2/kotlinx-coroutines-core-iosx64-1.10.2.module",
+        "url": "../../atomicfu-iosx64/0.27.0/atomicfu-iosx64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-iosx64",
-        "version": "1.10.2"
+        "module": "atomicfu-iosx64",
+        "version": "0.27.0"
       }
     },
     {
@@ -378,10 +371,10 @@
         "org.jetbrains.kotlin.platform.type": "js"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-js/1.10.2/kotlinx-coroutines-core-js-1.10.2.module",
+        "url": "../../atomicfu-js/0.27.0/atomicfu-js-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-js",
-        "version": "1.10.2"
+        "module": "atomicfu-js",
+        "version": "0.27.0"
       }
     },
     {
@@ -394,10 +387,10 @@
         "org.jetbrains.kotlin.platform.type": "js"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-js/1.10.2/kotlinx-coroutines-core-js-1.10.2.module",
+        "url": "../../atomicfu-js/0.27.0/atomicfu-js-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-js",
-        "version": "1.10.2"
+        "module": "atomicfu-js",
+        "version": "0.27.0"
       }
     },
     {
@@ -412,10 +405,10 @@
         "org.jetbrains.kotlin.platform.type": "js"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-js/1.10.2/kotlinx-coroutines-core-js-1.10.2.module",
+        "url": "../../atomicfu-js/0.27.0/atomicfu-js-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-js",
-        "version": "1.10.2"
+        "module": "atomicfu-js",
+        "version": "0.27.0"
       }
     },
     {
@@ -428,10 +421,10 @@
         "org.jetbrains.kotlin.platform.type": "jvm"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-jvm/1.10.2/kotlinx-coroutines-core-jvm-1.10.2.module",
+        "url": "../../atomicfu-jvm/0.27.0/atomicfu-jvm-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-jvm",
-        "version": "1.10.2"
+        "module": "atomicfu-jvm",
+        "version": "0.27.0"
       }
     },
     {
@@ -444,10 +437,10 @@
         "org.jetbrains.kotlin.platform.type": "jvm"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-jvm/1.10.2/kotlinx-coroutines-core-jvm-1.10.2.module",
+        "url": "../../atomicfu-jvm/0.27.0/atomicfu-jvm-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-jvm",
-        "version": "1.10.2"
+        "module": "atomicfu-jvm",
+        "version": "0.27.0"
       }
     },
     {
@@ -462,10 +455,45 @@
         "org.jetbrains.kotlin.platform.type": "jvm"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-jvm/1.10.2/kotlinx-coroutines-core-jvm-1.10.2.module",
+        "url": "../../atomicfu-jvm/0.27.0/atomicfu-jvm-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-jvm",
-        "version": "1.10.2"
+        "module": "atomicfu-jvm",
+        "version": "0.27.0"
+      }
+    },
+    {
+      "name": "linuxArm32HfpApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../atomicfu-linuxarm32hfp/0.27.0/atomicfu-linuxarm32hfp-0.27.0.module",
+        "group": "org.jetbrains.kotlinx",
+        "module": "atomicfu-linuxarm32hfp",
+        "version": "0.27.0"
+      }
+    },
+    {
+      "name": "linuxArm32HfpSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm32_hfp",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../atomicfu-linuxarm32hfp/0.27.0/atomicfu-linuxarm32hfp-0.27.0.module",
+        "group": "org.jetbrains.kotlinx",
+        "module": "atomicfu-linuxarm32hfp",
+        "version": "0.27.0"
       }
     },
     {
@@ -479,10 +507,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-linuxarm64/1.10.2/kotlinx-coroutines-core-linuxarm64-1.10.2.module",
+        "url": "../../atomicfu-linuxarm64/0.27.0/atomicfu-linuxarm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-linuxarm64",
-        "version": "1.10.2"
+        "module": "atomicfu-linuxarm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -497,10 +525,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-linuxarm64/1.10.2/kotlinx-coroutines-core-linuxarm64-1.10.2.module",
+        "url": "../../atomicfu-linuxarm64/0.27.0/atomicfu-linuxarm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-linuxarm64",
-        "version": "1.10.2"
+        "module": "atomicfu-linuxarm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -514,10 +542,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-linuxx64/1.10.2/kotlinx-coroutines-core-linuxx64-1.10.2.module",
+        "url": "../../atomicfu-linuxx64/0.27.0/atomicfu-linuxx64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-linuxx64",
-        "version": "1.10.2"
+        "module": "atomicfu-linuxx64",
+        "version": "0.27.0"
       }
     },
     {
@@ -532,10 +560,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-linuxx64/1.10.2/kotlinx-coroutines-core-linuxx64-1.10.2.module",
+        "url": "../../atomicfu-linuxx64/0.27.0/atomicfu-linuxx64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-linuxx64",
-        "version": "1.10.2"
+        "module": "atomicfu-linuxx64",
+        "version": "0.27.0"
       }
     },
     {
@@ -549,10 +577,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-macosarm64/1.10.2/kotlinx-coroutines-core-macosarm64-1.10.2.module",
+        "url": "../../atomicfu-macosarm64/0.27.0/atomicfu-macosarm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-macosarm64",
-        "version": "1.10.2"
+        "module": "atomicfu-macosarm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -567,10 +595,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-macosarm64/1.10.2/kotlinx-coroutines-core-macosarm64-1.10.2.module",
+        "url": "../../atomicfu-macosarm64/0.27.0/atomicfu-macosarm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-macosarm64",
-        "version": "1.10.2"
+        "module": "atomicfu-macosarm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -584,10 +612,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-macosarm64/1.10.2/kotlinx-coroutines-core-macosarm64-1.10.2.module",
+        "url": "../../atomicfu-macosarm64/0.27.0/atomicfu-macosarm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-macosarm64",
-        "version": "1.10.2"
+        "module": "atomicfu-macosarm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -601,10 +629,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-macosx64/1.10.2/kotlinx-coroutines-core-macosx64-1.10.2.module",
+        "url": "../../atomicfu-macosx64/0.27.0/atomicfu-macosx64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-macosx64",
-        "version": "1.10.2"
+        "module": "atomicfu-macosx64",
+        "version": "0.27.0"
       }
     },
     {
@@ -619,10 +647,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-macosx64/1.10.2/kotlinx-coroutines-core-macosx64-1.10.2.module",
+        "url": "../../atomicfu-macosx64/0.27.0/atomicfu-macosx64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-macosx64",
-        "version": "1.10.2"
+        "module": "atomicfu-macosx64",
+        "version": "0.27.0"
       }
     },
     {
@@ -636,10 +664,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-macosx64/1.10.2/kotlinx-coroutines-core-macosx64-1.10.2.module",
+        "url": "../../atomicfu-macosx64/0.27.0/atomicfu-macosx64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-macosx64",
-        "version": "1.10.2"
+        "module": "atomicfu-macosx64",
+        "version": "0.27.0"
       }
     },
     {
@@ -653,10 +681,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-mingwx64/1.10.2/kotlinx-coroutines-core-mingwx64-1.10.2.module",
+        "url": "../../atomicfu-mingwx64/0.27.0/atomicfu-mingwx64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-mingwx64",
-        "version": "1.10.2"
+        "module": "atomicfu-mingwx64",
+        "version": "0.27.0"
       }
     },
     {
@@ -671,10 +699,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-mingwx64/1.10.2/kotlinx-coroutines-core-mingwx64-1.10.2.module",
+        "url": "../../atomicfu-mingwx64/0.27.0/atomicfu-mingwx64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-mingwx64",
-        "version": "1.10.2"
+        "module": "atomicfu-mingwx64",
+        "version": "0.27.0"
       }
     },
     {
@@ -688,10 +716,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-tvosarm64/1.10.2/kotlinx-coroutines-core-tvosarm64-1.10.2.module",
+        "url": "../../atomicfu-tvosarm64/0.27.0/atomicfu-tvosarm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-tvosarm64",
-        "version": "1.10.2"
+        "module": "atomicfu-tvosarm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -706,10 +734,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-tvosarm64/1.10.2/kotlinx-coroutines-core-tvosarm64-1.10.2.module",
+        "url": "../../atomicfu-tvosarm64/0.27.0/atomicfu-tvosarm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-tvosarm64",
-        "version": "1.10.2"
+        "module": "atomicfu-tvosarm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -723,10 +751,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-tvosarm64/1.10.2/kotlinx-coroutines-core-tvosarm64-1.10.2.module",
+        "url": "../../atomicfu-tvosarm64/0.27.0/atomicfu-tvosarm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-tvosarm64",
-        "version": "1.10.2"
+        "module": "atomicfu-tvosarm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -740,10 +768,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-tvossimulatorarm64/1.10.2/kotlinx-coroutines-core-tvossimulatorarm64-1.10.2.module",
+        "url": "../../atomicfu-tvossimulatorarm64/0.27.0/atomicfu-tvossimulatorarm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-tvossimulatorarm64",
-        "version": "1.10.2"
+        "module": "atomicfu-tvossimulatorarm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -758,10 +786,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-tvossimulatorarm64/1.10.2/kotlinx-coroutines-core-tvossimulatorarm64-1.10.2.module",
+        "url": "../../atomicfu-tvossimulatorarm64/0.27.0/atomicfu-tvossimulatorarm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-tvossimulatorarm64",
-        "version": "1.10.2"
+        "module": "atomicfu-tvossimulatorarm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -775,10 +803,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-tvossimulatorarm64/1.10.2/kotlinx-coroutines-core-tvossimulatorarm64-1.10.2.module",
+        "url": "../../atomicfu-tvossimulatorarm64/0.27.0/atomicfu-tvossimulatorarm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-tvossimulatorarm64",
-        "version": "1.10.2"
+        "module": "atomicfu-tvossimulatorarm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -792,10 +820,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-tvosx64/1.10.2/kotlinx-coroutines-core-tvosx64-1.10.2.module",
+        "url": "../../atomicfu-tvosx64/0.27.0/atomicfu-tvosx64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-tvosx64",
-        "version": "1.10.2"
+        "module": "atomicfu-tvosx64",
+        "version": "0.27.0"
       }
     },
     {
@@ -810,10 +838,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-tvosx64/1.10.2/kotlinx-coroutines-core-tvosx64-1.10.2.module",
+        "url": "../../atomicfu-tvosx64/0.27.0/atomicfu-tvosx64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-tvosx64",
-        "version": "1.10.2"
+        "module": "atomicfu-tvosx64",
+        "version": "0.27.0"
       }
     },
     {
@@ -827,10 +855,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-tvosx64/1.10.2/kotlinx-coroutines-core-tvosx64-1.10.2.module",
+        "url": "../../atomicfu-tvosx64/0.27.0/atomicfu-tvosx64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-tvosx64",
-        "version": "1.10.2"
+        "module": "atomicfu-tvosx64",
+        "version": "0.27.0"
       }
     },
     {
@@ -843,10 +871,10 @@
         "org.jetbrains.kotlin.wasm.target": "js"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-wasm-js/1.10.2/kotlinx-coroutines-core-wasm-js-1.10.2.module",
+        "url": "../../atomicfu-wasm-js/0.27.0/atomicfu-wasm-js-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-wasm-js",
-        "version": "1.10.2"
+        "module": "atomicfu-wasm-js",
+        "version": "0.27.0"
       }
     },
     {
@@ -859,10 +887,10 @@
         "org.jetbrains.kotlin.wasm.target": "js"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-wasm-js/1.10.2/kotlinx-coroutines-core-wasm-js-1.10.2.module",
+        "url": "../../atomicfu-wasm-js/0.27.0/atomicfu-wasm-js-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-wasm-js",
-        "version": "1.10.2"
+        "module": "atomicfu-wasm-js",
+        "version": "0.27.0"
       }
     },
     {
@@ -877,10 +905,10 @@
         "org.jetbrains.kotlin.wasm.target": "js"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-wasm-js/1.10.2/kotlinx-coroutines-core-wasm-js-1.10.2.module",
+        "url": "../../atomicfu-wasm-js/0.27.0/atomicfu-wasm-js-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-wasm-js",
-        "version": "1.10.2"
+        "module": "atomicfu-wasm-js",
+        "version": "0.27.0"
       }
     },
     {
@@ -893,10 +921,10 @@
         "org.jetbrains.kotlin.wasm.target": "wasi"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-wasm-wasi/1.10.2/kotlinx-coroutines-core-wasm-wasi-1.10.2.module",
+        "url": "../../atomicfu-wasm-wasi/0.27.0/atomicfu-wasm-wasi-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-wasm-wasi",
-        "version": "1.10.2"
+        "module": "atomicfu-wasm-wasi",
+        "version": "0.27.0"
       }
     },
     {
@@ -909,10 +937,10 @@
         "org.jetbrains.kotlin.wasm.target": "wasi"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-wasm-wasi/1.10.2/kotlinx-coroutines-core-wasm-wasi-1.10.2.module",
+        "url": "../../atomicfu-wasm-wasi/0.27.0/atomicfu-wasm-wasi-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-wasm-wasi",
-        "version": "1.10.2"
+        "module": "atomicfu-wasm-wasi",
+        "version": "0.27.0"
       }
     },
     {
@@ -927,10 +955,10 @@
         "org.jetbrains.kotlin.wasm.target": "wasi"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-wasm-wasi/1.10.2/kotlinx-coroutines-core-wasm-wasi-1.10.2.module",
+        "url": "../../atomicfu-wasm-wasi/0.27.0/atomicfu-wasm-wasi-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-wasm-wasi",
-        "version": "1.10.2"
+        "module": "atomicfu-wasm-wasi",
+        "version": "0.27.0"
       }
     },
     {
@@ -944,10 +972,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-watchosarm32/1.10.2/kotlinx-coroutines-core-watchosarm32-1.10.2.module",
+        "url": "../../atomicfu-watchosarm32/0.27.0/atomicfu-watchosarm32-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-watchosarm32",
-        "version": "1.10.2"
+        "module": "atomicfu-watchosarm32",
+        "version": "0.27.0"
       }
     },
     {
@@ -962,10 +990,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-watchosarm32/1.10.2/kotlinx-coroutines-core-watchosarm32-1.10.2.module",
+        "url": "../../atomicfu-watchosarm32/0.27.0/atomicfu-watchosarm32-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-watchosarm32",
-        "version": "1.10.2"
+        "module": "atomicfu-watchosarm32",
+        "version": "0.27.0"
       }
     },
     {
@@ -979,10 +1007,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-watchosarm32/1.10.2/kotlinx-coroutines-core-watchosarm32-1.10.2.module",
+        "url": "../../atomicfu-watchosarm32/0.27.0/atomicfu-watchosarm32-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-watchosarm32",
-        "version": "1.10.2"
+        "module": "atomicfu-watchosarm32",
+        "version": "0.27.0"
       }
     },
     {
@@ -996,10 +1024,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-watchosarm64/1.10.2/kotlinx-coroutines-core-watchosarm64-1.10.2.module",
+        "url": "../../atomicfu-watchosarm64/0.27.0/atomicfu-watchosarm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-watchosarm64",
-        "version": "1.10.2"
+        "module": "atomicfu-watchosarm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -1014,10 +1042,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-watchosarm64/1.10.2/kotlinx-coroutines-core-watchosarm64-1.10.2.module",
+        "url": "../../atomicfu-watchosarm64/0.27.0/atomicfu-watchosarm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-watchosarm64",
-        "version": "1.10.2"
+        "module": "atomicfu-watchosarm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -1031,10 +1059,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-watchosarm64/1.10.2/kotlinx-coroutines-core-watchosarm64-1.10.2.module",
+        "url": "../../atomicfu-watchosarm64/0.27.0/atomicfu-watchosarm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-watchosarm64",
-        "version": "1.10.2"
+        "module": "atomicfu-watchosarm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -1048,10 +1076,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-watchosdevicearm64/1.10.2/kotlinx-coroutines-core-watchosdevicearm64-1.10.2.module",
+        "url": "../../atomicfu-watchosdevicearm64/0.27.0/atomicfu-watchosdevicearm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-watchosdevicearm64",
-        "version": "1.10.2"
+        "module": "atomicfu-watchosdevicearm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -1066,10 +1094,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-watchosdevicearm64/1.10.2/kotlinx-coroutines-core-watchosdevicearm64-1.10.2.module",
+        "url": "../../atomicfu-watchosdevicearm64/0.27.0/atomicfu-watchosdevicearm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-watchosdevicearm64",
-        "version": "1.10.2"
+        "module": "atomicfu-watchosdevicearm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -1083,10 +1111,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-watchosdevicearm64/1.10.2/kotlinx-coroutines-core-watchosdevicearm64-1.10.2.module",
+        "url": "../../atomicfu-watchosdevicearm64/0.27.0/atomicfu-watchosdevicearm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-watchosdevicearm64",
-        "version": "1.10.2"
+        "module": "atomicfu-watchosdevicearm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -1100,10 +1128,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-watchossimulatorarm64/1.10.2/kotlinx-coroutines-core-watchossimulatorarm64-1.10.2.module",
+        "url": "../../atomicfu-watchossimulatorarm64/0.27.0/atomicfu-watchossimulatorarm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-watchossimulatorarm64",
-        "version": "1.10.2"
+        "module": "atomicfu-watchossimulatorarm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -1118,10 +1146,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-watchossimulatorarm64/1.10.2/kotlinx-coroutines-core-watchossimulatorarm64-1.10.2.module",
+        "url": "../../atomicfu-watchossimulatorarm64/0.27.0/atomicfu-watchossimulatorarm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-watchossimulatorarm64",
-        "version": "1.10.2"
+        "module": "atomicfu-watchossimulatorarm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -1135,10 +1163,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-watchossimulatorarm64/1.10.2/kotlinx-coroutines-core-watchossimulatorarm64-1.10.2.module",
+        "url": "../../atomicfu-watchossimulatorarm64/0.27.0/atomicfu-watchossimulatorarm64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-watchossimulatorarm64",
-        "version": "1.10.2"
+        "module": "atomicfu-watchossimulatorarm64",
+        "version": "0.27.0"
       }
     },
     {
@@ -1152,10 +1180,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-watchosx64/1.10.2/kotlinx-coroutines-core-watchosx64-1.10.2.module",
+        "url": "../../atomicfu-watchosx64/0.27.0/atomicfu-watchosx64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-watchosx64",
-        "version": "1.10.2"
+        "module": "atomicfu-watchosx64",
+        "version": "0.27.0"
       }
     },
     {
@@ -1170,10 +1198,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-watchosx64/1.10.2/kotlinx-coroutines-core-watchosx64-1.10.2.module",
+        "url": "../../atomicfu-watchosx64/0.27.0/atomicfu-watchosx64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-watchosx64",
-        "version": "1.10.2"
+        "module": "atomicfu-watchosx64",
+        "version": "0.27.0"
       }
     },
     {
@@ -1187,10 +1215,10 @@
         "org.jetbrains.kotlin.platform.type": "native"
       },
       "available-at": {
-        "url": "../../kotlinx-coroutines-core-watchosx64/1.10.2/kotlinx-coroutines-core-watchosx64-1.10.2.module",
+        "url": "../../atomicfu-watchosx64/0.27.0/atomicfu-watchosx64-0.27.0.module",
         "group": "org.jetbrains.kotlinx",
-        "module": "kotlinx-coroutines-core-watchosx64",
-        "version": "1.10.2"
+        "module": "atomicfu-watchosx64",
+        "version": "0.27.0"
       }
     }
   ]
